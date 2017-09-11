@@ -1,0 +1,162 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: helvetica;
+}
+
+/*container for top of the page*/
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+}
+
+.header {
+  width: 960px;
+  text-align: left;
+  display: inline-flex;
+  align-items: center;
+}
+
+.header img {
+  height: 1.5rem;
+  width: auto;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+.header h1 {
+  font-family: helvetica;
+  font-size: 1rem;
+  color: white;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+
+/*main background image*/
+.bikes-headingimageContainer {
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.bikes-headingContainer {
+  padding-top: 9rem;
+  width: 960px;
+}
+
+.bikes-heading {
+  width: 20rem;
+  background-color: black;
+  color: white;
+  padding: 2rem 3rem;
+}
+
+#newarrival {
+  /*padding-top: 2rem;*/
+  font-family: helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: 0.5rem;
+}
+
+#sportbikestitle {
+  font-family: helvetica;
+  text-align: left;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 0.5rem;
+}
+
+.NavBarFullWidthContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: firebrick;
+}
+
+.NavbarFlexContainer {
+  text-align: center;
+  width: 960px;
+}
+
+.navBar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /**/
+}
+
+.navBar ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.navBar li {
+  color: white;
+  font-family: helvetica;
+  padding: 0.75rem 0rem;
+}
+
+.ItemStoreFlexContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  border: dashed 1px red;
+}
+
+.ItemStoreContainer {
+  width: 960px;
+  border: dashed 1px blue;
+}
+
+.ItemStore {
+  display: flex;
+  justify-content: space-between;
+  border: dashed 1px orange;
+}
+
+.gallery {
+  border: 4px solid black;
+  width: 30%;
+  height: auto;
+  text-align: center;
+}
+
+#pen,#watch {
+  height: 9rem;
+  width: auto;
+  padding: 2rem 0rem;
+}
+
+#glasses {
+  height: 4rem;
+  width: auto;
+  padding: 2rem 0rem;
+}
+
+.ItemStoreTextContainer {
+  display: flex;
+  align-items: flex-end;
+  flex-grow: 1;
+}
+
+.ItemStoreText {
+width: 100%;
+background-color: black;
+}
+
+.ItemStoreText p {
+  padding: 0.5rem 0rem;
+  color: white;
+}
