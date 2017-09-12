@@ -76,6 +76,8 @@ body {
   padding-top: 0.5rem;
 }
 
+/*navBar CSS*/
+
 .NavBarFullWidthContainer {
   width: 100%;
   display: flex;
@@ -106,6 +108,8 @@ body {
   font-family: helvetica;
   padding: 0.75rem 0rem;
 }
+
+/*shop CSS*/
 
 .ItemStoreFlexContainer {
   width: 100%;
@@ -157,6 +161,7 @@ background-color: black;
   padding: 0.5rem 0rem;
   color: white;
 }
+/*Location and Hours CSS*/
 
 .LocHoursFlexContainer {
   width: 100%;
