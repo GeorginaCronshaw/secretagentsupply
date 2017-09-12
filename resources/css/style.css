@@ -161,57 +161,51 @@ background-color: black;
   padding: 0.5rem 0rem;
   color: white;
 }
+
 /*Location and Hours CSS*/
 
-.LocHoursFlexContainer {
+.BusinessInfoFlexContainer {
   width: 100%;
-  display: inline-flex;
+  display: flex;
   justify-content: center;
 }
 
-.LocHoursWidthContainer {
+.BusinessInfoWidthContainer {
   width: 960px;
-  border: 1px orange dashed;
   display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 0 0;
 }
 
-.LocHoursMainContainer {
- width: 100%;
- border: 1px yellow dashed;
- display: flex;
-}
-
-.LocationContainer {
-  background-color: black;
-  width: 35%;
-  border: 1px red dashed;
-}
-
-.location {
-  color: white;
-  padding-left: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.HoursMainContainer {
-  display: flex;
-  justify-content: flex-end;
+.infoBox {
   width: 35%;
 }
 
-.HoursContainer {
+.infoBox .title {
+  display: block;
   background-color: black;
-
-}
-
-.hours {
   color: white;
-  padding-left: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem 2rem;
 }
 
-.hoursText {
-  border: 1px blue dashed;
+/*footer*/
+
+.footerContainer {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  margin: 4rem 0 0 0;
+}
+
+.footer {
+  width: 960px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.footer p {
+  color: white;
 }
