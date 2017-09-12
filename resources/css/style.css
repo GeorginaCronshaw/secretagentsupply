@@ -112,18 +112,15 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 3rem;
-  border: dashed 1px red;
 }
 
 .ItemStoreContainer {
   width: 960px;
-  border: dashed 1px blue;
 }
 
 .ItemStore {
   display: flex;
   justify-content: space-between;
-  border: dashed 1px orange;
 }
 
 .gallery {
@@ -142,7 +139,7 @@ body {
 #glasses {
   height: 4rem;
   width: auto;
-  padding: 2rem 0rem;
+  padding: 4.5rem 0rem;
 }
 
 .ItemStoreTextContainer {
@@ -159,4 +156,57 @@ background-color: black;
 .ItemStoreText p {
   padding: 0.5rem 0rem;
   color: white;
+}
+
+.LocHoursWidthContainer {
+  width: 100%;
+  height: 5.5rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  border: 1px red dashed;
+}
+
+.LocHoursMainWidthContainer {
+  width: 960px;
+  border: 1px pink dashed;
+}
+
+.LocHoursFlexContainer {
+  width: 100%;
+  border: 1px orange dashed;
+  display: flex;
+  align-items: center;
+}
+
+.LocationContainer {
+  background-color: black;
+  width: 35%;
+}
+
+.location {
+  text-align: left;
+  color: white;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.HoursContainer {
+  background-color: black;
+  width: 35%;
+  display: flex;
+
+}
+
+.hours {
+  text-align: left;
+  color: white;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.hoursText {
+  border: 1px blue dashed;
 }
