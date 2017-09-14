@@ -90,23 +90,27 @@ body {
   width: 960px;
 }
 
-.navBar {
+.navBarFull {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   /**/
 }
 
-.navBar ul {
+.navBarFull ul {
   display: flex;
   width: 100%;
   justify-content: space-between;
 }
 
-.navBar li {
+.navBarFull li {
   color: white;
   font-family: helvetica;
   padding: 0.75rem 0rem;
+}
+
+li.SingleMenuItem {
+  display: none;
 }
 
 /*shop CSS*/
@@ -125,6 +129,7 @@ body {
 .ItemStore {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .gallery {
@@ -208,4 +213,34 @@ background-color: black;
 
 .footer p {
   color: white;
+}
+
+/*media querys*/
+
+@media only screen and (max-width: 1024px) {
+  .infoBox {
+    width: 35%;
+  }
+  .gallery {
+    width: 47%;
+  }
+  .ItemStore {
+    height: 15rem;
+  }
+  li.FullMenu {
+    display: none;
+  }
+  li.SingleMenuItem {
+    display: inherit;
+  }
+  .navBarFull ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+}
+
+@media screen only and (max-width: 470px) {
+
 }
