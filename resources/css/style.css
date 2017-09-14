@@ -58,7 +58,7 @@ body {
   color: white;
   padding: 2rem 3rem;
 }
-
+/* New arrival Text*/
 #newarrival {
   /*padding-top: 2rem;*/
   font-family: helvetica;
@@ -178,6 +178,7 @@ background-color: black;
 .BusinessInfoWidthContainer {
   width: 960px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 3rem 0 0 0;
 }
@@ -238,9 +239,75 @@ background-color: black;
     width: 100%;
     justify-content: center;
   }
+#Glasses {
+    display: none;
+  }
 
 }
 
-@media screen only and (max-width: 470px) {
+@media only screen and (max-width: 470px) {
+  #Watch {
+    display: none;
+  }
+  .footer p {
+    text-align: center;
+  }
+  .infoBox {
+    width: 90%;
+    padding: 0.5rem 0rem;
+  }
+  .gallery {
+    width: 90%;
+  }
+  .bikes-headingimageContainer{
+    height: 15rem;
+  }
+  .bikes-headingContainer {
+    padding-top: 10rem;
+  }
 
+  /*Removes uneeded menu items*/
+  li.FullMenu {
+    display: none;
+  }
+  /*displays only "Menu"*/
+  li.SingleMenuItem {
+    display: inherit;
+  }
+  .navBarFull ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  /* New arrival Text*/
+  #newarrival {
+    font-size: 0.77rem;
+    padding-bottom: 0.25rem;
+  }
+  /*sport bikes anf motor cycles heading*/
+  #sportbikestitle {
+    font-size: 1rem;
+    padding-top: 0.25rem;
+  }
+  .bikes-heading {
+    padding: 1rem 2rem;
+    width: 100%;
+  }
+  .ItemStore {
+    display: flex;
+    justify-content: center;
+  }
+
+  .BusinessInfoWidthContainer {
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0 0 0;
+  }
+  .BusinessInfoWidthContainer {
+    flex-wrap: wrap;
+  }
+  .title .location {
+    margin-bottom: 0.5rem;
+  }
 }
